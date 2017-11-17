@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26CB96938A6BEB8ED506623DBC933114 /* Pods-Firebase Roader DemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C7094E079D4D7BE1A3BED431C978A9 /* Pods-Firebase Roader DemoTests-dummy.m */; };
+		3190A86B89D442D1193D219D79235003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4E2B7EF4F7ABBF7BF912120A03026E0D /* Pods-Firebase Roader Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C82791C047E2BD4C6DDD6B12F1B3E6C /* Pods-Firebase Roader Demo-dummy.m */; };
+		5878E830A5E09C85E65552201096F47F /* Pods-Firebase Roader DemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3FA0736BDD5BA7E563F33732494EE4 /* Pods-Firebase Roader DemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		703BB5ABB3D1B09A7758D8B9C32B8054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8036C53D08CEEBF38E2E49D20C033F95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		82136B5979453E0EC9D3211C93770E57 /* Pods-Firebase Roader Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3681FA4FEEB2E24B4D2AAFC12FD6A487 /* Pods-Firebase Roader Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D58C53DB8672562DA9AA48A3534BA9A0 /* Pods-Firebase Roader DemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B41FCD50C9FD8B3F4D814C30A255D88B /* Pods-Firebase Roader DemoUITests-dummy.m */; };
+		E5ABDB41838FC6A05A2A698CAC6834C7 /* Pods-Firebase Roader DemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E33B223A27C9F49456F5621732F28BA /* Pods-Firebase Roader DemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C8CCECE4F9F5B3510D85CE69BA84CB /* Pods-Firebase Roader DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Firebase Roader DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0651F5439BFB4428E15E86105370E956 /* Pods-Firebase Roader DemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Firebase Roader DemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		09D4E6AC94E3ED8FAD29C676B1893085 /* Pods-Firebase Roader Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Firebase Roader Demo-frameworks.sh"; sourceTree = "<group>"; };
+		0ADE99651D9B4CC8C1757DC6626D2B96 /* Pods-Firebase Roader Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Firebase Roader Demo.release.xcconfig"; sourceTree = "<group>"; };
+		173DF12BC9DF08A9C1D9E197A2DF4384 /* Pods-Firebase Roader DemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Firebase Roader DemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		265067B9578AC4328EFE85A8C9D7921B /* Pods-Firebase Roader DemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Firebase Roader DemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		275456EC129123A5DE20EE5B9997FD87 /* Pods-Firebase Roader DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Firebase Roader DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3681FA4FEEB2E24B4D2AAFC12FD6A487 /* Pods-Firebase Roader Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Firebase Roader Demo-umbrella.h"; sourceTree = "<group>"; };
+		3AEC40464EE992C997BC2653F3EC0144 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E33B223A27C9F49456F5621732F28BA /* Pods-Firebase Roader DemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Firebase Roader DemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		434B571E8EE4733F1D600E6EC0739D6C /* Pods-Firebase Roader DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Firebase Roader DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C00AFCFC6FD590BA8FE03CB29944A5B /* Pods-Firebase Roader Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Firebase Roader Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4E3FA0736BDD5BA7E563F33732494EE4 /* Pods-Firebase Roader DemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Firebase Roader DemoTests-umbrella.h"; sourceTree = "<group>"; };
+		57C2B7BD2D8F88423299EBD5D6F10521 /* Pods-Firebase Roader DemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Firebase Roader DemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69C7094E079D4D7BE1A3BED431C978A9 /* Pods-Firebase Roader DemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Firebase Roader DemoTests-dummy.m"; sourceTree = "<group>"; };
+		6A6B95F847D0C2FB298FE2AECDD79A1A /* Pods_Firebase_Roader_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Firebase_Roader_Demo.framework; path = "Pods-Firebase Roader Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C82791C047E2BD4C6DDD6B12F1B3E6C /* Pods-Firebase Roader Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Firebase Roader Demo-dummy.m"; sourceTree = "<group>"; };
+		78D1356EDCAFE01AB37A6E4D5958EEB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B59FD64395BC48E563A7F5B97E3EF1 /* Pods-Firebase Roader DemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Firebase Roader DemoUITests-resources.sh"; sourceTree = "<group>"; };
+		8B1DA10A5731254135C5B0B3CC32859B /* Pods-Firebase Roader DemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Firebase Roader DemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F186235FADB5FA1A56F65A79856556D /* Pods-Firebase Roader DemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Firebase Roader DemoTests-resources.sh"; sourceTree = "<group>"; };
+		A74A34038F0877F139E5C103E7DA5DB3 /* Pods-Firebase Roader DemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Firebase Roader DemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAE48FBFE28397064968AE48606EAF73 /* Pods-Firebase Roader Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Firebase Roader Demo-resources.sh"; sourceTree = "<group>"; };
+		B2024E151940B161CD4B19A61C2E417F /* Pods-Firebase Roader DemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Firebase Roader DemoUITests.modulemap"; sourceTree = "<group>"; };
+		B41FCD50C9FD8B3F4D814C30A255D88B /* Pods-Firebase Roader DemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Firebase Roader DemoUITests-dummy.m"; sourceTree = "<group>"; };
+		BF728B883A359F652FFD4B411C8D07F5 /* Pods-Firebase Roader Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Firebase Roader Demo.modulemap"; sourceTree = "<group>"; };
+		C701448ECB04E161CB86FA8E63F79840 /* Pods-Firebase Roader Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Firebase Roader Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD0DBE6D6A7FCD6DB5295DA4640E442C /* Pods-Firebase Roader DemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Firebase Roader DemoTests.modulemap"; sourceTree = "<group>"; };
+		E9410C9FCA6C31513896A55FBF6A58F8 /* Pods_Firebase_Roader_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Firebase_Roader_DemoTests.framework; path = "Pods-Firebase Roader DemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FEA18655645A8FEAC88936F7BB0DB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D83C69FE75BF003B9E77B435DDA81F /* Pods-Firebase Roader DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Firebase Roader DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F28E2485299B72B708D176A723DF533E /* Pods-Firebase Roader Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Firebase Roader Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FED147DE65883EA9BFC732ABD9CC6508 /* Pods_Firebase_Roader_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Firebase_Roader_DemoUITests.framework; path = "Pods-Firebase Roader DemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BD1CEE281BBB919C1E655BA043EF8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3190A86B89D442D1193D219D79235003 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B931DEE5E236B238495EECE176EDFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8036C53D08CEEBF38E2E49D20C033F95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4310E6F3B5549E09AEB5AE05CD03E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703BB5ABB3D1B09A7758D8B9C32B8054 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A75EE15D5935A4393B8B1E59D676C76 /* Pods-Firebase Roader DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9FEA18655645A8FEAC88936F7BB0DB6 /* Info.plist */,
+				B2024E151940B161CD4B19A61C2E417F /* Pods-Firebase Roader DemoUITests.modulemap */,
+				A74A34038F0877F139E5C103E7DA5DB3 /* Pods-Firebase Roader DemoUITests-acknowledgements.markdown */,
+				173DF12BC9DF08A9C1D9E197A2DF4384 /* Pods-Firebase Roader DemoUITests-acknowledgements.plist */,
+				B41FCD50C9FD8B3F4D814C30A255D88B /* Pods-Firebase Roader DemoUITests-dummy.m */,
+				57C2B7BD2D8F88423299EBD5D6F10521 /* Pods-Firebase Roader DemoUITests-frameworks.sh */,
+				80B59FD64395BC48E563A7F5B97E3EF1 /* Pods-Firebase Roader DemoUITests-resources.sh */,
+				3E33B223A27C9F49456F5621732F28BA /* Pods-Firebase Roader DemoUITests-umbrella.h */,
+				434B571E8EE4733F1D600E6EC0739D6C /* Pods-Firebase Roader DemoUITests.debug.xcconfig */,
+				275456EC129123A5DE20EE5B9997FD87 /* Pods-Firebase Roader DemoUITests.release.xcconfig */,
+			);
+			name = "Pods-Firebase Roader DemoUITests";
+			path = "Target Support Files/Pods-Firebase Roader DemoUITests";
+			sourceTree = "<group>";
+		};
+		61E948992ACC26A0CB5388F991432930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A6B95F847D0C2FB298FE2AECDD79A1A /* Pods_Firebase_Roader_Demo.framework */,
+				E9410C9FCA6C31513896A55FBF6A58F8 /* Pods_Firebase_Roader_DemoTests.framework */,
+				FED147DE65883EA9BFC732ABD9CC6508 /* Pods_Firebase_Roader_DemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AB6ADB938AFBDF5CCB1EF93A41E168A /* Pods-Firebase Roader Demo */ = {
+			isa = PBXGroup;
+			children = (
+				78D1356EDCAFE01AB37A6E4D5958EEB1 /* Info.plist */,
+				BF728B883A359F652FFD4B411C8D07F5 /* Pods-Firebase Roader Demo.modulemap */,
+				F28E2485299B72B708D176A723DF533E /* Pods-Firebase Roader Demo-acknowledgements.markdown */,
+				C701448ECB04E161CB86FA8E63F79840 /* Pods-Firebase Roader Demo-acknowledgements.plist */,
+				6C82791C047E2BD4C6DDD6B12F1B3E6C /* Pods-Firebase Roader Demo-dummy.m */,
+				09D4E6AC94E3ED8FAD29C676B1893085 /* Pods-Firebase Roader Demo-frameworks.sh */,
+				AAE48FBFE28397064968AE48606EAF73 /* Pods-Firebase Roader Demo-resources.sh */,
+				3681FA4FEEB2E24B4D2AAFC12FD6A487 /* Pods-Firebase Roader Demo-umbrella.h */,
+				4C00AFCFC6FD590BA8FE03CB29944A5B /* Pods-Firebase Roader Demo.debug.xcconfig */,
+				0ADE99651D9B4CC8C1757DC6626D2B96 /* Pods-Firebase Roader Demo.release.xcconfig */,
+			);
+			name = "Pods-Firebase Roader Demo";
+			path = "Target Support Files/Pods-Firebase Roader Demo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				61E948992ACC26A0CB5388F991432930 /* Products */,
+				F02E65CFAC6D2AE1198F247FC20E8AC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD53499256FAEE6D84A1DBF6951C9B1B /* Pods-Firebase Roader DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AEC40464EE992C997BC2653F3EC0144 /* Info.plist */,
+				CD0DBE6D6A7FCD6DB5295DA4640E442C /* Pods-Firebase Roader DemoTests.modulemap */,
+				265067B9578AC4328EFE85A8C9D7921B /* Pods-Firebase Roader DemoTests-acknowledgements.markdown */,
+				8B1DA10A5731254135C5B0B3CC32859B /* Pods-Firebase Roader DemoTests-acknowledgements.plist */,
+				69C7094E079D4D7BE1A3BED431C978A9 /* Pods-Firebase Roader DemoTests-dummy.m */,
+				0651F5439BFB4428E15E86105370E956 /* Pods-Firebase Roader DemoTests-frameworks.sh */,
+				9F186235FADB5FA1A56F65A79856556D /* Pods-Firebase Roader DemoTests-resources.sh */,
+				4E3FA0736BDD5BA7E563F33732494EE4 /* Pods-Firebase Roader DemoTests-umbrella.h */,
+				F0D83C69FE75BF003B9E77B435DDA81F /* Pods-Firebase Roader DemoTests.debug.xcconfig */,
+				03C8CCECE4F9F5B3510D85CE69BA84CB /* Pods-Firebase Roader DemoTests.release.xcconfig */,
+			);
+			name = "Pods-Firebase Roader DemoTests";
+			path = "Target Support Files/Pods-Firebase Roader DemoTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F02E65CFAC6D2AE1198F247FC20E8AC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6ADB938AFBDF5CCB1EF93A41E168A /* Pods-Firebase Roader Demo */,
+				BD53499256FAEE6D84A1DBF6951C9B1B /* Pods-Firebase Roader DemoTests */,
+				0A75EE15D5935A4393B8B1E59D676C76 /* Pods-Firebase Roader DemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AED0ECED0CA8A1C9C62B1BC13E150ABC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82136B5979453E0EC9D3211C93770E57 /* Pods-Firebase Roader Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B138AA588BA26FD0C1ADDC2233A7ABCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5ABDB41838FC6A05A2A698CAC6834C7 /* Pods-Firebase Roader DemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0E2DDBAACC7043F64143F20C6D3C47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5878E830A5E09C85E65552201096F47F /* Pods-Firebase Roader DemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		51274A65C591DA6D5303B304B21D5ADA /* Pods-Firebase Roader DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C71E412669BD427E9F5F6F7C1F93263 /* Build configuration list for PBXNativeTarget "Pods-Firebase Roader DemoTests" */;
+			buildPhases = (
+				52D9B414A3FEBA7BAD505AE74AB673ED /* Sources */,
+				76B931DEE5E236B238495EECE176EDFE /* Frameworks */,
+				BE0E2DDBAACC7043F64143F20C6D3C47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Firebase Roader DemoTests";
+			productName = "Pods-Firebase Roader DemoTests";
+			productReference = E9410C9FCA6C31513896A55FBF6A58F8 /* Pods_Firebase_Roader_DemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F8DF89E4B52A6A6A92A621F7337BF8B /* Pods-Firebase Roader DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAC161BF7A4DED403B5E696A0FAFFF1 /* Build configuration list for PBXNativeTarget "Pods-Firebase Roader DemoUITests" */;
+			buildPhases = (
+				3568879A2F2A25BE6C953D44CA2E3A38 /* Sources */,
+				6BD1CEE281BBB919C1E655BA043EF8BC /* Frameworks */,
+				B138AA588BA26FD0C1ADDC2233A7ABCE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Firebase Roader DemoUITests";
+			productName = "Pods-Firebase Roader DemoUITests";
+			productReference = FED147DE65883EA9BFC732ABD9CC6508 /* Pods_Firebase_Roader_DemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		943CB345DC7A757F7820E6EF09FFF5DB /* Pods-Firebase Roader Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6DBDAAC9FE2425B5F2D9692B866A19 /* Build configuration list for PBXNativeTarget "Pods-Firebase Roader Demo" */;
+			buildPhases = (
+				028FE35AF3B33E198F5CB6DB8B87C28C /* Sources */,
+				C4310E6F3B5549E09AEB5AE05CD03E66 /* Frameworks */,
+				AED0ECED0CA8A1C9C62B1BC13E150ABC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Firebase Roader Demo";
+			productName = "Pods-Firebase Roader Demo";
+			productReference = 6A6B95F847D0C2FB298FE2AECDD79A1A /* Pods_Firebase_Roader_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 61E948992ACC26A0CB5388F991432930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943CB345DC7A757F7820E6EF09FFF5DB /* Pods-Firebase Roader Demo */,
+				51274A65C591DA6D5303B304B21D5ADA /* Pods-Firebase Roader DemoTests */,
+				6F8DF89E4B52A6A6A92A621F7337BF8B /* Pods-Firebase Roader DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028FE35AF3B33E198F5CB6DB8B87C28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2B7EF4F7ABBF7BF912120A03026E0D /* Pods-Firebase Roader Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3568879A2F2A25BE6C953D44CA2E3A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C53DB8672562DA9AA48A3534BA9A0 /* Pods-Firebase Roader DemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D9B414A3FEBA7BAD505AE74AB673ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB96938A6BEB8ED506623DBC933114 /* Pods-Firebase Roader DemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12A577345CECC8844DB301A3ABF84B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C00AFCFC6FD590BA8FE03CB29944A5B /* Pods-Firebase Roader Demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Firebase Roader Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Firebase Roader Demo/Pods-Firebase Roader Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Firebase_Roader_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2EF1EAE36101DFDFA3AC6D0FD58FA096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D83C69FE75BF003B9E77B435DDA81F /* Pods-Firebase Roader DemoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Firebase Roader DemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Firebase Roader DemoTests/Pods-Firebase Roader DemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Firebase_Roader_DemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D40718F505D1396338BA77C36FA1574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275456EC129123A5DE20EE5B9997FD87 /* Pods-Firebase Roader DemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Firebase Roader DemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Firebase Roader DemoUITests/Pods-Firebase Roader DemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Firebase_Roader_DemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		551AA4E393FCBC23293B3A4D96AF1CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434B571E8EE4733F1D600E6EC0739D6C /* Pods-Firebase Roader DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Firebase Roader DemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Firebase Roader DemoUITests/Pods-Firebase Roader DemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Firebase_Roader_DemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B426546513784E89367D12D1D659E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C8CCECE4F9F5B3510D85CE69BA84CB /* Pods-Firebase Roader DemoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Firebase Roader DemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Firebase Roader DemoTests/Pods-Firebase Roader DemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Firebase_Roader_DemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90EBA72CA772FF1A6AFD18ADDF184519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADE99651D9B4CC8C1757DC6626D2B96 /* Pods-Firebase Roader Demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Firebase Roader Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Firebase Roader Demo/Pods-Firebase Roader Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Firebase_Roader_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C71E412669BD427E9F5F6F7C1F93263 /* Build configuration list for PBXNativeTarget "Pods-Firebase Roader DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF1EAE36101DFDFA3AC6D0FD58FA096 /* Debug */,
+				6B426546513784E89367D12D1D659E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6DBDAAC9FE2425B5F2D9692B866A19 /* Build configuration list for PBXNativeTarget "Pods-Firebase Roader Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A577345CECC8844DB301A3ABF84B5D /* Debug */,
+				90EBA72CA772FF1A6AFD18ADDF184519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAC161BF7A4DED403B5E696A0FAFFF1 /* Build configuration list for PBXNativeTarget "Pods-Firebase Roader DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551AA4E393FCBC23293B3A4D96AF1CC6 /* Debug */,
+				4D40718F505D1396338BA77C36FA1574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

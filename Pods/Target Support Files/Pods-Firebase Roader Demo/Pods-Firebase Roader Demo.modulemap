@@ -1,0 +1,6 @@
+framework module Pods_Firebase_Roader_Demo {
+  umbrella header "Pods-Firebase Roader Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
